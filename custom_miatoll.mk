@@ -9,7 +9,7 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Pixel os stuff.
 $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 # Inherit from miatoll device
